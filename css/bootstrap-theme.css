@@ -4,11 +4,17 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-.chunk {
+.chunk button {
     height: 93px;
     text-align: center !important;
     font-family: 'Bangers', cursive !important;
     font-size: 28px;
+    background-color: rgba(248, 248, 248, 0.8) !important;
+
+}
+
+.chunk button:hover {
+  background-color: rgba(192, 192, 192, 0.9) !important;   
 }
 
 .chunkee {
@@ -31,7 +37,7 @@
 }
 
 .gals {
-  background-color: dimgrey;
+  background-color: rgba(100, 100, 100, 0.9);
   padding: 10px;
 }
 
@@ -56,6 +62,7 @@
 }
 
 @media (min-width:1200px){.container{width:970px}}
+@media (max-width:1024px) {.bgcover {background-image: url(/media/jlu-11-center.png); background-repeat: no-repeat; background-attachment: fixed; background-position: center; }}
 
 .btn-default,
 .btn-primary,
