@@ -47,6 +47,18 @@
     font-size: 18px;
 }
 
+.galz {
+  background-color: rgba(175, 175, 175, 0.9);
+    border-radius: 5px;
+}
+
+.galz h3 {
+ text-align: center;   
+}
+
+.galz p {
+ font-size: 1.11em;   
+}
 .thumbnail img {
     height: 225px; 
 }
