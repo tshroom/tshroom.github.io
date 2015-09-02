@@ -83,6 +83,10 @@
     font-family: 'Bangers', cursive;
 }
 
+.desknav .navbar-header {
+    margin-left: 52px;
+}
+
 @media (min-width:1200px) {.container{width:970px;}}
 @media (max-width:1024px) {.bgcover {background-image: url(/media/jlu-11-center.png); background-repeat: no-repeat; background-attachment: fixed; background-position: center; }}
 @media (max-width: 991px) {.gals {margin: 0 auto !important; float: none;} .desknav nav {display: none !important;}}
