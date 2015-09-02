@@ -11,10 +11,51 @@
     font-size: 28px;
 }
 
+.chunkee {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 36px;    
+    display: block;
+    float: left;
+}
+
 .socials, .socials li {
     list-style: none;
     display: inline-block;
 }
+
+
+.bgcover {
+    background: no-repeat;
+    background-image: url(/media/jlu-11-c.png);
+    background-color: white;
+}
+
+.gals {
+  background-color: dimgrey;
+  padding: 10px;
+}
+
+.gals p {
+    text-align: center;
+    font-family: 'Boogaloo', cursive;
+    font-size: 18px;
+}
+
+.thumbnail img {
+    height: 225px; 
+}
+
+.caption {
+    height: 25px;
+    padding: 1px !important;
+}
+
+.navbar-default {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(248, 248, 248, 0.05) 100%) !important;
+    background-color: rgba(248, 248, 248, 0.8) !important;   
+}
+
+@media (min-width:1200px){.container{width:970px}}
 
 .btn-default,
 .btn-primary,
